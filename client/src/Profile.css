@@ -1,0 +1,80 @@
+.profile_main{
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.img_block{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.profile_img{
+    width: 100%;
+
+
+}
+.info_block{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile_button_block{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.profile_save_button{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    border: 2px solid rgb(110, 253, 105);
+    transition-duration: 0.4s;
+    
+}
+.profile_save_button:hover{
+    background-color: rgb(110, 253, 105);
+}
+.profile_exit_button{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    border: 2px solid rgb(253, 105, 105);
+    transition-duration: 0.4s;
+}
+.profile_exit_button:hover{
+    background-color: rgb(253, 105, 105);
+}
+.edited_input{
+    padding: 8px 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: white;
+    width: calc(100% - 116px);
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+.edited_input:focus{
+    background-color: #c4c4c4;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}
+.reg_log_button{
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: white;
+    padding: 6px 30px;
+    border-radius: 8px;
+}
+.reg_log_nav{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.reg_log_nav:hover{
+    color: rgb(150, 149, 177);
+}

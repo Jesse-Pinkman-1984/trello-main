@@ -1,0 +1,26 @@
+.grid_block {
+    width: 80%;
+    margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.absolut_block{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: none;
+    z-index: -1;
+}
+.bottom_right{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    
+}
+.button_work{
+
+    padding: 7px;
+    border-radius: 100px;
+}

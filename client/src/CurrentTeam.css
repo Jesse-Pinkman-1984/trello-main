@@ -1,0 +1,20 @@
+.team_name_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.team_name_edited_input{
+    padding: 8px 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: white;
+    width: calc(100% - 64px);
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+.team_name_edited_input:focus{
+    background-color: #c4c4c4;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+}

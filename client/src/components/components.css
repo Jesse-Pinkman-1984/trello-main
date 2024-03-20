@@ -1,0 +1,140 @@
+/* --> header-start <-- */
+
+.header_bg {
+    background-color: #662ed5;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: white;
+}
+
+.header_ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.mini_avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.mini_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.exit_button{
+   padding: 2px 12px; 
+   border-radius: 8px;
+   border: 2px solid rgb(253, 105, 105);
+   transition-duration: 0.4s;
+}
+
+.exit_button:hover{
+    background-color: rgb(253, 105, 105);
+}
+
+/* --> header-start <-- */
+
+.main_input {
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: white;
+    width: calc(100% - 64px);
+    border: 1px solid black;
+}
+
+.square_add {
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+
+.square_add:hover {
+    background-color: #acacac;
+}
+
+.edit_input {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit_input .main_input {
+    padding: 8px 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: white;
+    width: calc(100% - 116px);
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+
+.edit_input .main_input:focus {
+    background-color: #b6b6b6;
+    border: 1px solid black;
+    outline: none;
+}
+
+.edit_input .main_input:focus-visible {
+    border: 1px solid black;
+    outline: none;
+}
+
+/* --> modal-start <-- */
+.modal_wrapper {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000093;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content {
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+    margin: 20px;
+    transform: translateY(-50px);
+    transition: all 0.3s;
+}
+
+.modal_close_button {
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #00000000;
+    transition-duration: 0.3s;
+}
+
+.modal_close_button:hover {
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #c5c5c5;
+}
+
+/* --> modal-end <-- */
